@@ -1,0 +1,72 @@
+body{
+    background-image: url("bg.jpg");
+    font-size: 25px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.main{
+    background-color: darkgray;
+    position: static;
+    margin-top: 10%;
+    margin-left: 13%;
+    padding: 20px;
+    width: 70%;
+    height: auto;
+    border-color: whitesmoke;
+    border-style: groove;
+    border-radius: 25px;
+}
+.search{
+    margin-top: 10px;
+    width: 90%;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    font-size: 40px;
+    background-color: white;
+}
+.div_style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button_style{
+    border-radius: 25px;
+    font-size: 19px;
+    float: right;
+    background-color: white;
+
+}
+.text_input_style{
+    border-radius: 5px;
+    font-size: 80%;
+    background-color: white;
+}
+.Submit_Button{
+    border-radius: 25px;
+    border-style: double;
+    font-size: 90%;
+    color:black;
+    background-color: white;
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.text_hover:hover{
+    background-color: gray;
+    border-radius: 10px;
+
+}
+h1{
+    text-align: center;
+    font-family: "Bernard MT Condensed";
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
