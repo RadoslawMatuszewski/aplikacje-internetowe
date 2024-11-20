@@ -1,0 +1,69 @@
+#inputs{
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+#cityInput{
+    width: 20%;
+    height: 10%;
+    font-size: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+#weatherButton{
+    width:10%;
+    height: 5%;
+    font-size: 25px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+#currentWeather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#forecastWeather {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    width: 100%;
+
+}
+#weatherNow{
+    border-style: solid;
+    text-align: center;
+    margin-right: 10px;
+    width: 15%;
+    height: auto;
+    position: relative;
+    border-radius: 5px;
+    background-color: darkgray;
+
+}
+#forecast5{
+    float: left;
+    border-style: solid;
+    text-align: center;
+    margin-right: 10px;
+    width: 15%;
+    height: 30%;
+    position: relative;
+    border-radius: 5px;
+    align-items: center;
+    background-color: darkgray;
+}
+h2{
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+body{
+    background-color: gray;
+}
